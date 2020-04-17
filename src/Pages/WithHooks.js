@@ -16,11 +16,7 @@ function WithHooks () {
                  <button onClick={() => setCount(count+1)}>{count}</button>
                  <button onClick={() => setFruit('orange')}>{fruit}</button>
                  <button onClick={() => setTodos({text: "ddd"})}>{todos.text}</button>
-                 <input
-                   type="text"
-                   value={value}
-                   onChange={(e) => setValue(e.target.value)}
-                 />
+                 <input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
              </div>
              )
 }
